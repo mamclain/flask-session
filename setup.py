@@ -30,7 +30,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.8',
-        'flask-caching>=1.7,<2',  # It drops Python 2.7 support since 1.8
+        'flask-caching @ git+ssh://git@github.com:mamclain/flask-caching',  # It drops Python 2.7 support since 1.8
     ],
     test_suite='test_session',
     classifiers=[
